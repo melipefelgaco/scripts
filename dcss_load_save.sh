@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define paths
-BACKUP_DIR=~/games/dcss/dcss-save-scum
-DEST_DIR="/Users/felipemms/Library/Application Support/Dungeon Crawl Stone Soup/saves"
+BACKUP_DIR="~/games/dcss/dcss-save-scum"
+DEST_DIR="~/Application Support/Dungeon Crawl Stone Soup/saves"
 
 # Find the highest existing backup number
 LAST_NUM=$(ls "$BACKUP_DIR" | sort -n | tail -n 1)
