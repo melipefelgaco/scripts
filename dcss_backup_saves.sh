@@ -2,7 +2,7 @@
 
 # Define paths
 BACKUP_DIR=~/games/dcss/dcss-save-scum
-SOURCE_DIR="/Users/felipemms/Library/Application Support/Dungeon Crawl Stone Soup/saves"
+SOURCE_DIR="~/Library/Application Support/Dungeon Crawl Stone Soup/saves"
 
 # Ensure backup directory exists
 mkdir -p "$BACKUP_DIR"
